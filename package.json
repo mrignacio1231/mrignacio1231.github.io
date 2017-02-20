@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "scrollreveal": "^3.3.4",
+    "smooth-scroll": "^0.1.4",
     "vue": "^2.1.10"
   },
   "devDependencies": {

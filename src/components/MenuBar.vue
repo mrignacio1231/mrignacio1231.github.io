@@ -4,7 +4,7 @@
       <header class="nav has-shadow">
         <div class="container">
           <div class="nav-left">
-            <a class="nav-item" href="index.html">
+            <a class="nav-item is-brand" href="index.html">
               <p class="title">Ignacio Del Nardo</p>
             </a>
           </div>
@@ -31,14 +31,11 @@
             <span></span>
           </span>
           <div class="nav-right nav-menu">
-            <a class="nav-item is-active">
+            <a data-scroll href="#inicio" class="nav-item is-active">
               Home
             </a>
-            <a class="nav-item">
+            <a data-scroll href="#projects" class="nav-item">
               Proyectos
-            </a>
-            <a class="nav-item">
-              Documentation
             </a>
           </div>
         </div>

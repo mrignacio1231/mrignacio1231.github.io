@@ -2,10 +2,10 @@
   <div>
     <section class="section main">
       <div class="container">
-        <div class="heading">
+        <div id="projects" class="heading">
           <h1 class="title has-text-centered">Proyectos realizados</h1>
         </div>
-        <div class="columns">
+        <div class="columns is-desktop">
           <div v-for="project in projects" class="column is-4">
             <div class="media section">
               <figure class="media-left">

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <section class="hero is-primary is-medium header-image">
+    <section id="inicio" class="hero is-primary is-medium header-image">
       <menubar></menubar>
       <div class="hero-body"></div>
     </section>
