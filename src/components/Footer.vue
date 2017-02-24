@@ -1,20 +1,4 @@
-<template>
-  <div>
-    <footer class="footer ">
-      <div class="container">
-        <div class=" has-text-centered white">
-          <p>
-            Diseñado por <a href="#"> Ignacio</a>
-          </p>
-          <p>
-            <a class="icon" href="https://github.com/mrignacio1231">
-              <i class="fa fa-github"></i>
-            </a>
-          </p>
-        </div>
-      </div>
-    </footer>
-  </div>
+<template lang="pug" src="./../views/Footer.pug">
 </template>
 
 <script>

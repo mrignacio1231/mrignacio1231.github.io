@@ -11,44 +11,7 @@
         </div>
       </nav>
     </div>
-    <div class="section main">
-      <div class="container">
-        <div class="columns">
-          <div class="column is-4">
-            <div class="panel section">
-              <div class="panel">
-                <p class=" has-text-centered"><i class="fa fa-graduation-cap icon-block"></i></p>
-                <br>
-                <p>Estudiante de ingeniería en telecomunicaciones y entusiasmado por aprender las nuevas tecnologías web.</p>
-                <br>
-              </div>
-            </div>
-          </div>
-          <div class="column is-4">
-            <div class="panel">
-              <div class="panel section">
-                <p class="has-text-centered"><i class="fa fa-cog icon-block"></i></p>
-                <br>
-                <p>Capacidad de aprender rápido y trabajar eficazmente en equipo. Dipuesto a escuchar a los demás y recibir críticas.</p>
-                <br>
-              </div>
-            </div>
-
-          </div>
-          <div class="column is-4">
-            <div class="panel">
-              <div class="panel section">
-                <p class="has-text-centered"><i class="fa fa-cloud icon-block"></i></p>
-                <br>
-                <p>Capaz de manejar tecnologías web tanto del lado del servidor como del cliente.</p>
-                <br>
-                <br>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <sobremi></sobremi>
     <projects></projects>
     <footerbar></footerbar>
   </div>
@@ -58,6 +21,7 @@
   import MenuBar from './components/MenuBar';
   import FooterBar from './components/Footer';
   import Projects from './components/Projects';
+  import SobreMi from './components/SobreMi';
 
   export default {
     name: 'app',
@@ -65,6 +29,7 @@
       menubar: MenuBar,
       footerbar: FooterBar,
       projects: Projects,
+      sobremi: SobreMi,
     },
   };
 </script>
